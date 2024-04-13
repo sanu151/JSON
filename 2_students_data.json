@@ -1,0 +1,41 @@
+{
+  "students": [
+    {
+      "name": "Supriyo Das",
+      "middleName": null,
+      "age": 36,
+      "cgpa": 4.23,
+      "isRegistered": true,
+      "languages": ["Bengali", "English", "Hindi"],
+      "friends": [
+        {
+          "name": "Raja",
+          "age": 18
+        },
+        {
+          "name": "Sagar",
+          "age": 17
+        }
+      ]
+    },
+
+    {
+      "name": "Rupa Bayen",
+      "middleName": null,
+      "age": 27,
+      "cgpa": 3.91,
+      "isRegistered": false,
+      "languages": ["Bengali", "English", "Hindi", "Tamil"],
+      "friends": [
+        {
+          "name": "Suparna",
+          "age": 26
+        },
+        {
+          "name": "Munmun",
+          "age": 27
+        }
+      ]
+    }
+  ]
+}
