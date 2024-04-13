@@ -53,7 +53,7 @@ JSON (JavaScript Object Notation) is a lightweight, human-readable data intercha
 
 **JSON viewer :** https://codebeautify.org/jsonviewer
 
-*What can you do with JSON Viewer?*
+**What can you do with JSON Viewer?**
 - Beautify / Format your JSON.
 - Parse and Display / Explore your JSON String to JSON tree view.
 - Minify / Compress your JSON.
