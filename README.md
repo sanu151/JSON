@@ -86,4 +86,5 @@ Following are few example jsonpath expressions and results for the above sample 
 
 # Fake JSON data (Fake API)
 **JSON Placeholder : https://jsonplaceholder.typicode.com/guide/**
+
 *Free fake and reliable API for testing and prototyping.*
