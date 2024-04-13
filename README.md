@@ -84,3 +84,6 @@ Following are few example jsonpath expressions and results for the above sample 
 | `$.students..age`                | Uses a recursive expression to select the `age` property of all student objects, including nested ones within the `friends` array (double dot `..` for all descendants). | An array containing all age values (36, 18, 17, 27, 26, 27).          |
 
 
+# Fake JSON data (Fake API)
+**JSON Placeholder : https://jsonplaceholder.typicode.com/guide/**
+~Free fake and reliable API for testing and prototyping.~
