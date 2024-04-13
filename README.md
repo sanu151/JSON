@@ -83,4 +83,4 @@ Following are few example jsonpath expressions and results for the above sample 
 | `$.students[1].friends[0].name`  | Selects the `name` property of the first friend (index 0) in the `friends` array of the second student object.                                                           | "Suparna"                                                             |
 | `$.students..age`                | Uses a recursive expression to select the `age` property of all student objects, including nested ones within the `friends` array (double dot `..` for all descendants). | An array containing all age values (36, 18, 17, 27, 26, 27).          |
 
-Remember that JSONPath expressions allow for powerful navigation and filtering within JSON data. This table provides some examples, but there are many more possibilities depending on your specific needs.
+
