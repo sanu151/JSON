@@ -97,7 +97,7 @@ Following are few example jsonpath expressions and results for the above sample 
 *Example :*
 
 **schema**
-
+```js
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
@@ -130,9 +130,11 @@ Following are few example jsonpath expressions and results for the above sample 
     "website"
   ]
 }
+```
 
 **JSON Data** 
 
+```json
 {
   "id": 1,
   "fullname": "Leanne Graham",
@@ -141,5 +143,6 @@ Following are few example jsonpath expressions and results for the above sample 
   "phone": "1-770-736-8031 x56442",
   "website": "hildegard.org"
 }
+```
 
 **Result :**  No errors found. JSON validates against the schema
