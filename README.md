@@ -88,3 +88,58 @@ Following are few example jsonpath expressions and results for the above sample 
 **JSON Placeholder : https://jsonplaceholder.typicode.com/guide/**
 
 *Free fake and reliable API for testing and prototyping.*
+
+# JSON Schma
+**json data to schema converter website :** https://www.liquid-technologies.com/online-json-to-schema-converter
+
+**json schema validator :** https://www.jsonschemavalidator.net/
+
+*Example :*
+
+**schema**
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "fullname": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "fullname",
+    "username",
+    "email",
+    "phone",
+    "website"
+  ]
+}
+
+**JSON Data** 
+
+{
+  "id": 1,
+  "fullname": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org"
+}
+
+**Result :**  No errors found. JSON validates against the schema
